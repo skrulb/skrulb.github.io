@@ -3,7 +3,7 @@ email: chris_m@mit.edu
 description: "peruse"
 baseurl: ""
 url: ""
-github_username: riggraz
+github_username: skrulb
 
 permalink: /:slug.html
 
