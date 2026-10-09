@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "no-style-please", github: riggraz/no-style-please
+gem "no-style-please", github: "riggraz/no-style-please"
 
 gem "github-pages", group: :jekyll_plugins
 
