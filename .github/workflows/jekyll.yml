@@ -26,7 +26,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'
+          ruby-version: '3.4'
           bundler: 'latest' # Forces GitHub to use a brand new, working version of Bundler
           bundler-cache: true
 
