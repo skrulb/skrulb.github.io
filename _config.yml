@@ -2,7 +2,7 @@ title: chris sitetinez
 email: chris_m@mit.edu
 description: "peruse"
 baseurl: ""
-url: ""
+url: "https://github.io"
 github_username: skrulb
 
 permalink: /:slug.html
