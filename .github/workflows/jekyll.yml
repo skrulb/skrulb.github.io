@@ -2,7 +2,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: ["master"] # Change to "master" if your default branch is master
+    branches: ["master", "main"]
 
 permissions:
   contents: read
@@ -26,8 +26,9 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3' # Matches your error log's Ruby version
-          bundler-cache: true # This explicitly runs 'bundle install' and caches your theme!
+          ruby-version: '3.3'
+          bundler: 'latest' # Forces GitHub to use a brand new, working version of Bundler
+          bundler-cache: true
 
       - name: Build with Jekyll
         run: bundle exec jekyll build
