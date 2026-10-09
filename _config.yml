@@ -1,17 +1,17 @@
-title: riggraz
-email: riccardo.graziosi97@gmail.com
-description: "thoughts on programming, digital wellbeing, ai"
+title: chris sitetinez
+email: chris_m@mit.edu
+description: "peruse"
 baseurl: ""
-url: "https://riggraz.dev"
+url: ""
 github_username: riggraz
 
 permalink: /:slug.html
 
 favicon: "favicon.png"
-goat_counter: "riggraz" # put your GoatCounter name if you want to use GoatCounter analytics
+goat_counter: "r" # put your GoatCounter name if you want to use GoatCounter analytics
 
 # Build settings
-remote_theme: riggraz/no-style-please
+remote_theme: no-style-please
 
 theme_config:
   appearance: "light"
@@ -23,6 +23,7 @@ theme_config:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 include:
   - _pages
